@@ -11,6 +11,18 @@
 		750BDF03290682C100C92B53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDF02290682C100C92B53 /* ContentView.swift */; };
 		750BDF05290682C200C92B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750BDF04290682C200C92B53 /* Assets.xcassets */; };
 		750BDF08290682C200C92B53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750BDF07290682C200C92B53 /* Preview Assets.xcassets */; };
+		750BDF1029068D8E00C92B53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDF0F29068D8E00C92B53 /* Constants.swift */; };
+		750BDF1329068F3A00C92B53 /* GeneralButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDF1229068F3A00C92B53 /* GeneralButton.swift */; };
+		750BDF152906964C00C92B53 /* OptionsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDF142906964C00C92B53 /* OptionsBar.swift */; };
+		750C2CC12906A4DB0046BDCA /* TopSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C2CC02906A4DB0046BDCA /* TopSectionView.swift */; };
+		750C2CC32906AFCF0046BDCA /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C2CC22906AFCF0046BDCA /* BookingView.swift */; };
+		750C2CC52906B9B50046BDCA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C2CC42906B9B50046BDCA /* CustomTextField.swift */; };
+		750C2CC72906C3E50046BDCA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C2CC62906C3E50046BDCA /* Extensions.swift */; };
+		750C2CC92906C5BA0046BDCA /* DatePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C2CC82906C5BA0046BDCA /* DatePickerButton.swift */; };
+		750C2CCB2906C94D0046BDCA /* DotsSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C2CCA2906C94D0046BDCA /* DotsSeparatorView.swift */; };
+		750C2CCD2906E50A0046BDCA /* NumbersTickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750C2CCC2906E50A0046BDCA /* NumbersTickerView.swift */; };
+		75AB3C4429082ACD0045AAE0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB3C4329082ACD0045AAE0 /* SettingsView.swift */; };
+		75CD494929092613000AD7F7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD494829092613000AD7F7 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		750BDF02290682C100C92B53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		750BDF04290682C200C92B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		750BDF07290682C200C92B53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		750BDF0F29068D8E00C92B53 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		750BDF1229068F3A00C92B53 /* GeneralButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralButton.swift; sourceTree = "<group>"; };
+		750BDF142906964C00C92B53 /* OptionsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsBar.swift; sourceTree = "<group>"; };
+		750C2CC02906A4DB0046BDCA /* TopSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSectionView.swift; sourceTree = "<group>"; };
+		750C2CC22906AFCF0046BDCA /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		750C2CC42906B9B50046BDCA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		750C2CC62906C3E50046BDCA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		750C2CC82906C5BA0046BDCA /* DatePickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerButton.swift; sourceTree = "<group>"; };
+		750C2CCA2906C94D0046BDCA /* DotsSeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsSeparatorView.swift; sourceTree = "<group>"; };
+		750C2CCC2906E50A0046BDCA /* NumbersTickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersTickerView.swift; sourceTree = "<group>"; };
+		75AB3C4329082ACD0045AAE0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		75CD494829092613000AD7F7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +75,11 @@
 		750BDEFF290682C100C92B53 /* DBNavigatorClone */ = {
 			isa = PBXGroup;
 			children = (
+				750BDF1129068E2A00C92B53 /* Elements */,
+				750BDF0E29068D8400C92B53 /* Utilities */,
 				750BDF00290682C100C92B53 /* DBNavigatorCloneApp.swift */,
 				750BDF02290682C100C92B53 /* ContentView.swift */,
+				75AB3C4329082ACD0045AAE0 /* SettingsView.swift */,
 				750BDF04290682C200C92B53 /* Assets.xcassets */,
 				750BDF06290682C200C92B53 /* Preview Content */,
 			);
@@ -65,6 +92,31 @@
 				750BDF07290682C200C92B53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		750BDF0E29068D8400C92B53 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				750BDF0F29068D8E00C92B53 /* Constants.swift */,
+				750C2CC62906C3E50046BDCA /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		750BDF1129068E2A00C92B53 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				750BDF1229068F3A00C92B53 /* GeneralButton.swift */,
+				750BDF142906964C00C92B53 /* OptionsBar.swift */,
+				750C2CC02906A4DB0046BDCA /* TopSectionView.swift */,
+				750C2CC22906AFCF0046BDCA /* BookingView.swift */,
+				750C2CC42906B9B50046BDCA /* CustomTextField.swift */,
+				750C2CC82906C5BA0046BDCA /* DatePickerButton.swift */,
+				750C2CCA2906C94D0046BDCA /* DotsSeparatorView.swift */,
+				750C2CCC2906E50A0046BDCA /* NumbersTickerView.swift */,
+				75CD494829092613000AD7F7 /* MenuView.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +189,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750BDF1329068F3A00C92B53 /* GeneralButton.swift in Sources */,
+				750C2CC72906C3E50046BDCA /* Extensions.swift in Sources */,
+				750C2CCB2906C94D0046BDCA /* DotsSeparatorView.swift in Sources */,
+				750BDF152906964C00C92B53 /* OptionsBar.swift in Sources */,
+				750C2CC32906AFCF0046BDCA /* BookingView.swift in Sources */,
+				750C2CC12906A4DB0046BDCA /* TopSectionView.swift in Sources */,
+				750C2CC52906B9B50046BDCA /* CustomTextField.swift in Sources */,
+				75CD494929092613000AD7F7 /* MenuView.swift in Sources */,
 				750BDF03290682C100C92B53 /* ContentView.swift in Sources */,
+				750C2CC92906C5BA0046BDCA /* DatePickerButton.swift in Sources */,
 				750BDF01290682C100C92B53 /* DBNavigatorCloneApp.swift in Sources */,
+				750BDF1029068D8E00C92B53 /* Constants.swift in Sources */,
+				750C2CCD2906E50A0046BDCA /* NumbersTickerView.swift in Sources */,
+				75AB3C4429082ACD0045AAE0 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
